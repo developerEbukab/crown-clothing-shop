@@ -1,16 +1,17 @@
-*{
-  box-sizing: border-box;
+body {
+  font-family: 'Acme';
+  padding: 20px 40px;
 }
 
-body{
-  font-family: "Acme";
-  padding: 20px 60px ;
-}
-
-a{
+a {
   text-decoration: none;
   color: black;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 
 textarea:focus,input,  input:focus, input:active, button, button:focus, button:active, select:focus, select:active{
   outline: none;
